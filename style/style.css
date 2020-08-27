@@ -37,7 +37,7 @@ body{
 	animation: animer 2s infinite;
 }
 
-@keyframe animer{
+@keyframes animer{
 	50% {
 	border: 2px solid black;
 	}
