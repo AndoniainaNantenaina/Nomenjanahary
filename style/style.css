@@ -34,6 +34,16 @@ body{
 	padding: 5px 20px;
 	border: 2px solid orange;
 	border-radius: 15px;
+	animation: animer 2s infinite;
+}
+
+@keyframe animer{
+	50% {
+	border: 2px solid black;
+	}
+	100%{
+	border: 2px solid orange;
+	}
 }
 
 .btn:hover{
